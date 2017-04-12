@@ -10,24 +10,30 @@
   	width: 100%;
 	overflow: auto;
   }
-  article {
-  	font-size: 16px;
-  }
 }
 
-/* Small screens */
 @media screen and (max-width: 500px) {
   .container {
   	width: 100%;
 	overflow: auto;
   }
   article {
-  	font-size: 16px;
+  	font-size: 18px;
   }
 }
 
 .image {
 	max-width: 100%;
+}
+
+.story {
+	max-width: 100%;
+}
+
+.social {
+	display: inline-block;
+	width: 100%;
+	text-align: justify;
 }
 
 

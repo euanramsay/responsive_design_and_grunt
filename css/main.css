@@ -18,3 +18,18 @@ img {
 	display: block;
 	padding: 5px;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+/*@import url(http://weloveiconfonts.com/api/?family=zocial);*/
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  color: grey;
+  text-align: justify;
+}
