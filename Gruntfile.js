@@ -14,13 +14,17 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 320,
+            suffix: 'small',
+            quality: 50
+          },{
+            width: 720,
+            suffix: 'medium',
+            quality: 50
+          },{
+            width: 1024,
+            suffix: 'large',
+            quality: 60
           }]
         },
 
